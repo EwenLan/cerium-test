@@ -1,4 +1,4 @@
-import { IValue, Indent } from "../../../common/define"
+import { IValue, Indent } from "../../../service/common/define"
 
 export class Filter {
     _key: string = ""

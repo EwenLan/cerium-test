@@ -1,7 +1,7 @@
 import { Subject } from "../subject/define"
 import { Operation } from "./operation/operation"
 import { Filter } from "./operation/backend_operation"
-import { ActionPrefix } from "../../common/action"
+import { ActionPrefix } from "../../service/common/action"
 
 
 export class OperateAndCheck {

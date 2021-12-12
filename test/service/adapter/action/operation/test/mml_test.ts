@@ -1,8 +1,8 @@
 import assert from "assert"
-import { OperateAndCheck } from "../../../../../../src/service/adapter/action/callable"
-import { Filter } from "../../../../../../src/service/adapter/action/operation/backend_operation"
-import { Operation, operationArgument, argValueTypeEnum, argValueTypeString } from "../../../../../../src/service/adapter/action/operation/operation"
-import { Subject } from "../../../../../../src/service/adapter/subject/define"
+import { OperateAndCheck } from "../../../../../../src/adapter/action/callable"
+import { Filter } from "../../../../../../src/adapter/action/operation/backend_operation"
+import { Operation, operationArgument, argValueTypeEnum, argValueTypeString } from "../../../../../../src/adapter/action/operation/operation"
+import { Subject } from "../../../../../../src/adapter/subject/define"
 
 describe("run operation then check return code string", () => {
     it("success with one argument", () => {

@@ -1,4 +1,4 @@
-import { IValue } from "../../../common/define"
+import { IValue } from "../../../service/common/define"
 
 class argValue {
     _value: string = ""
